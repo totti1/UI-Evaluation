@@ -3,6 +3,8 @@ import { Colors } from '../../Themes/'
 
 export default StyleSheet.create({
   header: {
-    backgroundColor: Colors.backgroundColor
+    backgroundColor: Colors.backgroundColor,
+    paddingTop: 20, 
+    marginTop: -20 
   }
 })
